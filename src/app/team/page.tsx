@@ -1,4 +1,4 @@
-import { title } from "process";
+
 import React from "react";
 import TeamCard from "@/components/TeamCard/TeamCard";
 
@@ -34,7 +34,7 @@ const Team = () => {
       title: "John Leboo",
       description: "Dog Trainer",
     },
-    {},
+    
   ];
   return (
     <div className="bg-secondary">
