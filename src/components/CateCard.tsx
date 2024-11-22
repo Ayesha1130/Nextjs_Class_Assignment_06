@@ -1,7 +1,7 @@
 import React from "react";
 
 type propCard = {
-  icon: any;
+  icon: React.ReactNode;
   name: string;
   description: string;
 };
