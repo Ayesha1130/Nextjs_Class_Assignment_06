@@ -7,7 +7,7 @@ const Footer = () => {
   return (
     <div className="w-full max-w-[1280px] p-[20px]">
       <div className="flex flex-col md:flex-row justify-between">
-        <div className="gap-5">
+        <div>
           <h1 className="font-bold text-center pb-2">
             Subscribe to our newsletter
           </h1>
@@ -33,7 +33,7 @@ const Footer = () => {
         By subscribing you agree to with our Privacy Policy
       </p>
 
-      <div className="flex flex-col md:flex-row justify-between mt-20 px-20 gap-5 ">
+      <div className="flex flex-col md:flex-row justify-between my-10 px-20 gap-5  ">
         <div className="w-[130.6] h-[30.38] gap-[8.02] justify-center items-center ">
           <Image
             src={"/images/logo.png"}
@@ -79,9 +79,9 @@ const Footer = () => {
 
       <hr className="border-t-2  border-text" />
 
-      <div className="flex flex-col  md:flex-row justify-center md:justify-between mt-2 ">
+      <div className="flex flex-col gap-5  md:flex-row mt-5">
         <h3>2023 Ddsgnr. All right reserved.</h3>
-        <div className="flex flex-row md:flex-row gap-5 mt-5">
+        <div className="flex flex-row gap-3">
           <Link href={"/"} className="hover:text-gray-700 underline">
             Privacy Policy
           </Link>
@@ -92,13 +92,13 @@ const Footer = () => {
             Cookie Policy
           </Link>
         </div>
+      </div>
 
-        <div className="flex gap-5 md:mt-10 mt-5">
-          <FaFacebookF size={20} />
-          <FaLinkedin size={20} />
-          <FaTwitter size={20} />
-          <FaGithub size={20} />
-        </div>
+      <div className="flex gap-5 md:mt-10 mt-5 justify-end">
+        <FaFacebookF size={20} />
+        <FaLinkedin size={20} />
+        <FaTwitter size={20} />
+        <FaGithub size={20} />
       </div>
     </div>
   );
