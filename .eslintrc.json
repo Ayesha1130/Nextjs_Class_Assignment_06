@@ -1,19 +1,16 @@
 {
-  
-  "extends": [
-    "next/core-web-vitals",
-    "next/typescript"
-  ],
+  "extends": ["next/core-web-vitals", "next/typescript"],
   "rules": {
-    // Custom rules
-    "react/no-unescaped-entities": "warn", // Unescaped entities par warning
-    "@typescript-eslint/no-unused-vars": "warn", // Unused variables par warning
-    "react/jsx-uses-react": "off", // React 17+ ke liye zaroorat nahi
-    "react/react-in-jsx-scope": "off" // React 17+ ke liye zaroorat nahi
-  },
-  "settings": {
-    "react": {
-      "version": "detect" // React version ko automatically detect karega
-    }
+    // Unused variables ki warning ko off karna
+    "@typescript-eslint/no-unused-vars": "warn", 
+    
+    // 'any' type ka use allow karna
+    "@typescript-eslint/no-explicit-any": "off",
+
+    // Unescaped entities ke liye warning ko disable karna (single quotes issue)
+    "react/no-unescaped-entities": "off", 
+
+    // next/image warnings ko disable karna agar zarurat ho
+    "@next/next/no-img-element": "off"
   }
 }

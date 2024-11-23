@@ -29,7 +29,7 @@ const Testimonials = () => {
     <div>
       <div className="flex flex-col  bg-secondary   py-[112px] px-5  ">
         <h1 className=" font-bold text-4xl  mb-3  hidden sm:block ">
-          Customer testimonials
+          Customer Testimonials
         </h1>
         <h1 className="font-bold text-2xl  mb-3 block sm:hidden ">
           What Our Student Say

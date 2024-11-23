@@ -22,7 +22,7 @@ const Header = () => {
           <RxCross2 size={20} className="md:hidden lg:hidden" />
         )}
       </button>
-      <div className="w-[130.6] h-[30.38] gap-[8.02] justify-center items-center ">
+      <div className="w-[130.6] h-[30.38] gap-[8.02] justify-center md:items-center items-start ">
         <Image
           src={"/images/logo.png"}
           alt="logo"

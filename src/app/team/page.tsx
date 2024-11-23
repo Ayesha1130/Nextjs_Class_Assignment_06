@@ -39,7 +39,7 @@ const Team = () => {
   return (
     <div className="bg-secondary">
       <div className="text-center ">
-        <h1 className="text-4xl font-bold pt-10 pb-5">Our team</h1>
+        <h1 className="text-4xl font-bold pt-10 pb-5">Our Team</h1>
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. </p>
 
         <div className="w-full max-w-[1280px] grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-[64px] mt-20">

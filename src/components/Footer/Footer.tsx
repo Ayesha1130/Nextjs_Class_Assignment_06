@@ -94,7 +94,7 @@ const Footer = () => {
         </div>
       </div>
 
-      <div className="flex gap-5 md:mt-10 mt-5 justify-end">
+      <div className="flex gap-5 justify-center md:justify-end mt-5 md:-mt-5">
         <FaFacebookF size={20} />
         <FaLinkedin size={20} />
         <FaTwitter size={20} />
